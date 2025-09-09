@@ -1,0 +1,29 @@
+local placeId = game.PlaceId
+
+if placeId == 126884695634066 then
+    -- Grow A Garden
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/22c850869e9e8c3cdc71aedbb632dac6.lua"))()
+
+elseif placeId == 79546208627805 then
+    -- 99 Nights
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7b49a212373561851fa3bc6b9e4a45c0.lua"))()
+
+elseif placeId == 129827112113663 then
+    -- Prospecting
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7aa95e166cbccc97fe52efc6776d0880.lua"))()
+
+elseif placeId == 121864768012064 then
+    -- Fish It
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b9162d4ef4823b2af2f93664cf9ec393.lua"))()
+
+elseif placeId == 17516596118 then
+    -- Hypershot
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c9f7b2cda8460f26a85bc14a419b3513.lua"))()
+
+elseif placeId == 103754275310547 then
+    -- Hunty Zombie
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7b5caf0fbbd276ba9747f231e47c0b1a.lua"))()
+
+else
+    warn("This game is not supported by the Polluted Script Loader.")
+end
