@@ -427,6 +427,8 @@ pcall(function()
             [7344582593] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/DieOfDealth', isLuarmor = false},
             [5995470825] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Hypershot.lua', isLuarmor = false},
             [6035872082] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Rivals.lua', isLuarmor = false},
+            [5544551093] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Secret%20Killer.lua', isLuarmor = false},
+
             -- Poluted Games
             [8353962342] = {url = "https://api.luarmor.net/files/v3/loaders/0f8751b134191b33890f77ac3be49dbc.lua", isLuarmor = true},
             [126884695634066] = {url = "https://api.luarmor.net/files/v3/loaders/22c850869e9e8c3cdc71aedbb632dac6.lua", isLuarmor = true},
@@ -434,8 +436,9 @@ pcall(function()
             [8316902627] = {url = "https://api.luarmor.net/files/v3/loaders/3e0e5bada3453caa36246a325f2345f3.lua", isLuarmor = true},
             [6701277882] = {url = "https://api.luarmor.net/files/v3/loaders/b9162d4ef4823b2af2f93664cf9ec393.lua", isLuarmor = true},
             [7750955984] = {url = "https://api.luarmor.net/files/v3/loaders/7b5caf0fbbd276ba9747f231e47c0b1a.lua", isLuarmor = true},
-            [8066283370] = {url = "https://api.luarmor.net/files/v3/loaders/59181ae583fe3b51a97d7d7e769d857e.lua", isLuarmor = true}
-        }
+            [8066283370] = {url = "https://api.luarmor.net/files/v3/loaders/59181ae583fe3b51a97d7d7e769d857e.lua", isLuarmor = true},
+            [7882829745] = {url = "https://api.luarmor.net/files/v3/loaders/c29a3e11688e5806e228f2c67a36149d.lua", isLuarmor = true}
+}
 -- Zephyr universal if game not found
         local info = scriptInfo[universeId] or {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Universal.lua', isLuarmor = false}
         
