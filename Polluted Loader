@@ -422,24 +422,28 @@ pcall(function()
         local universeId = game.GameId
         local scriptInfo = {
             -- Zephyr games
-            [4348829796] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/ZephyrV2', isLuarmor = false},
-            [7709344486] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/StealABrainrot', isLuarmor = false},
-            [7344582593] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/DieOfDealth', isLuarmor = false},
-            [5995470825] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Hypershot.lua', isLuarmor = false},
-            [6035872082] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Rivals.lua', isLuarmor = false},
-            [5544551093] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Secret%20Killer.lua', isLuarmor = false},
+[4348829796] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/ZephyrV2', isLuarmor = false},
+[7709344486] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/StealABrainrot', isLuarmor = false},
+[7344582593] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/DieOfDealth', isLuarmor = false},
+[5995470825] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Hypershot.lua', isLuarmor = false},
+[6035872082] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Rivals.lua', isLuarmor = false},
+[5544551093] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Secret%20Killer.lua', isLuarmor = false},
+[9251333102] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Invade%20the%20World', isLuarmor = false},
+
 
             -- Poluted Games
-            [8353962342] = {url = "https://api.luarmor.net/files/v3/loaders/0f8751b134191b33890f77ac3be49dbc.lua", isLuarmor = true},
-            [126884695634066] = {url = "https://api.luarmor.net/files/v3/loaders/22c850869e9e8c3cdc71aedbb632dac6.lua", isLuarmor = true},
-            [79546208627805] = {url = "https://api.luarmor.net/files/v3/loaders/7b49a212373561851fa3bc6b9e4a45c0.lua", isLuarmor = true},
-            [8316902627] = {url = "https://api.luarmor.net/files/v3/loaders/3e0e5bada3453caa36246a325f2345f3.lua", isLuarmor = true},
-            [6701277882] = {url = "https://api.luarmor.net/files/v3/loaders/b9162d4ef4823b2af2f93664cf9ec393.lua", isLuarmor = true},
-            [7750955984] = {url = "https://api.luarmor.net/files/v3/loaders/7b5caf0fbbd276ba9747f231e47c0b1a.lua", isLuarmor = true},
-            [8066283370] = {url = "https://api.luarmor.net/files/v3/loaders/59181ae583fe3b51a97d7d7e769d857e.lua", isLuarmor = true},
-            [7882829745] = {url = "https://api.luarmor.net/files/v3/loaders/c29a3e11688e5806e228f2c67a36149d.lua", isLuarmor = true},
-            [7264587281] = {url = "https://api.luarmor.net/files/v3/loaders/7203478c42c592bee50a25c8056cfb74.lua", isLuarmor = true},
-			[7671049560] = {url = "https://api.luarmor.net/files/v3/loaders/ecfcccea43f60fa4c46009f854c06a52.lua", isLuarmor = true},
+[8353962342] = {url = "https://api.luarmor.net/files/v3/loaders/0f8751b134191b33890f77ac3be49dbc.lua", isLuarmor = true},
+[126884695634066] = {url = "https://api.luarmor.net/files/v3/loaders/22c850869e9e8c3cdc71aedbb632dac6.lua", isLuarmor = true},
+[79546208627805] = {url = "https://api.luarmor.net/files/v3/loaders/7b49a212373561851fa3bc6b9e4a45c0.lua", isLuarmor = true},
+[8316902627] = {url = "https://api.luarmor.net/files/v3/loaders/3e0e5bada3453caa36246a325f2345f3.lua", isLuarmor = true},
+[6701277882] = {url = "https://api.luarmor.net/files/v3/loaders/b9162d4ef4823b2af2f93664cf9ec393.lua", isLuarmor = true},
+[7750955984] = {url = "https://api.luarmor.net/files/v3/loaders/7b5caf0fbbd276ba9747f231e47c0b1a.lua", isLuarmor = true},
+[8066283370] = {url = "https://api.luarmor.net/files/v3/loaders/59181ae583fe3b51a97d7d7e769d857e.lua", isLuarmor = true},
+[7882829745] = {url = "https://api.luarmor.net/files/v3/loaders/c29a3e11688e5806e228f2c67a36149d.lua", isLuarmor = true},
+[7264587281] = {url = "https://api.luarmor.net/files/v3/loaders/7203478c42c592bee50a25c8056cfb74.lua", isLuarmor = true},
+[7671049560] = {url = "https://api.luarmor.net/files/v3/loaders/ecfcccea43f60fa4c46009f854c06a52.lua", isLuarmor = true},
+[8144728961] = {url = "https://api.luarmor.net/files/v4/loaders/cf7d7d4cd57d21138be3f35d4442557a.lua", isLuarmor = true},
+[7394964165] = {url = "https://api.luarmor.net/files/v4/loaders/83dfede315f32da25e5d660d5d9629cb.lua", isLuarmor = true},
 }
 -- Zephyr universal if game not found
         local info = scriptInfo[universeId] or {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Universal.lua', isLuarmor = false}
