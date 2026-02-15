@@ -429,6 +429,7 @@ pcall(function()
 [6035872082] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Rivals.lua', isLuarmor = false},
 [5544551093] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Secret%20Killer.lua', isLuarmor = false},
 [9251333102] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Invade%20the%20World', isLuarmor = false},
+[1176784616] = {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/TDSLoadup.lua', isLuarmor = false},
 
 
             -- Poluted Games
