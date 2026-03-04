@@ -445,6 +445,7 @@ pcall(function()
 [7671049560] = {url = "https://api.luarmor.net/files/v3/loaders/ecfcccea43f60fa4c46009f854c06a52.lua", isLuarmor = true},
 [8144728961] = {url = "https://api.luarmor.net/files/v4/loaders/cf7d7d4cd57d21138be3f35d4442557a.lua", isLuarmor = true},
 [7394964165] = {url = "https://api.luarmor.net/files/v4/loaders/83dfede315f32da25e5d660d5d9629cb.lua", isLuarmor = true},
+[9509842868] = {url = "https://api.luarmor.net/files/v4/loaders/7e95f50fa8d660cad182e6278cf70afe.lua", isLuarmor = true},
 }
 -- Zephyr universal if game not found
         local info = scriptInfo[universeId] or {url = 'https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/Games/Universal.lua', isLuarmor = false}
